@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maite Willinski · Técnica SMR y estudiante de ASIR</title>
+    <meta name="description" content="Portafolio de Maite Willinski: técnica en Sistemas Microinformáticos y Redes y estudiante de ASIR. Busco prácticas duales en sistemas, redes o soporte.">
+
+    <!-- Tipografías: Fraunces (títulos), Inter (texto), JetBrains Mono (terminal) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <!-- ===== CABECERA ===== -->
+    <header class="cabecera">
+        <div class="contenedor cabecera__dentro">
+            <a class="logo" href="#inicio">Maite<span>.</span></a>
+            <nav aria-label="Navegación principal">
+                <ul class="menu">
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#trayectoria">Trayectoria</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido">
+
+        <!-- ===== 1. INICIO ===== -->
+        <section class="inicio" id="inicio">
+            <div class="contenedor inicio__dentro">
+                <div class="inicio__texto">
+                    <p class="inicio__saludo">Hola, soy</p>
+                    <h1 class="inicio__nombre">Maite Willinski</h1>
+                    <p class="inicio__titular">
+                        Técnica en SMR <span class="punto" aria-hidden="true">·</span>
+                        Estudiante de ASIR <span class="punto" aria-hidden="true">·</span>
+                        Busco prácticas duales
+                    </p>
+                    <p class="inicio__intro">
+                        Me interesan la administración de sistemas, las redes y el soporte técnico.
+                        Disponible para prácticas duales desde febrero/marzo de 2027.
+                    </p>
+                    <div class="botones">
+                        <!-- Pon tu CV en assets/ con este nombre (ver nota sobre el teléfono) -->
+                        <a class="boton" href="assets/CV_Maite_Willinski.pdf" download>
+                            <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg>
+                            Descargar CV
+                        </a>
+                        <a class="boton boton--borde" href="#proyectos">Ver proyectos</a>
+                    </div>
+                </div>
+
+                <div class="inicio__foto">
+                    <img class="foto" src="img/foto.jpg" alt="Foto de Maite Willinski" width="280" height="280">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 2. SOBRE MÍ + TERMINAL ===== -->
+        <section class="seccion seccion--niebla" id="sobre-mi">
+            <div class="contenedor">
+                <h2 class="titulo">Sobre mí</h2>
+                <div class="sobre-mi">
+                    <div class="sobre-mi__texto">
+                        <p>
+                            Soy técnica en Sistemas Microinformáticos y Redes y estudio el primer curso de
+                            Administración de Sistemas Informáticos en Red (ASIR) en modalidad dual.
+                        </p>
+                        <p>
+                            En SMR hice 400 horas de prácticas como técnica de soporte en PC Plasma: formateos,
+                            clonación de discos, mantenimiento de equipos, diagnóstico de averías y atención a clientes.
+                        </p>
+                        <p>
+                            Ahora en ASIR estoy aprendiendo virtualización, análisis de tráfico con Wireshark,
+                            protocolos de red y Active Directory. Mi objetivo es seguir creciendo en sistemas y
+                            redes y conseguir certificaciones profesionales.
+                        </p>
+                    </div>
+
+                    <div class="terminal" aria-label="Resumen en formato terminal">
+                        <div class="terminal__barra" aria-hidden="true">
+                            <span></span><span></span><span></span>
+                            <p>maite@portfolio: ~</p>
+                        </div>
+<pre class="terminal__cuerpo"><code><span class="prompt">maite@portfolio:~$</span> whoami
+maite willinski
+<span class="prompt">maite@portfolio:~$</span> cat estudios.txt
+SMR · titulada (2022 – 2025)
+ASIR · 1.º curso, FP Dual (2026 – actualidad)
+<span class="prompt">maite@portfolio:~$</span> cat experiencia.txt
+Soporte informático · PC Plasma · 400 h
+<span class="prompt">maite@portfolio:~$</span> cat busco.txt
+Prácticas duales · feb/mar 2027 · ~300 h
+<span class="prompt">maite@portfolio:~$</span> <span class="cursor" aria-hidden="true"></span></code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 3. HABILIDADES ===== -->
+        <section class="seccion" id="habilidades">
+            <div class="contenedor">
+                <h2 class="titulo">Habilidades</h2>
+                <div class="rejilla rejilla--habilidades">
+                    <article class="tarjeta">
+                        <svg class="icono icono--grande" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+                        <h3>Sistemas</h3>
+                        <ul>
+                            <li>Windows y Linux</li>
+                            <li>Active Directory (prácticas de clase)</li>
+                            <li>Virtualización y dual boot</li>
+                        </ul>
+                    </article>
+                    <article class="tarjeta">
+                        <svg class="icono icono--grande" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M6 16v-4h12v4"/></svg>
+                        <h3>Redes</h3>
+                        <ul>
+                            <li>TCP/IP, DHCP, DNS y VLAN</li>
+                            <li>Wireshark</li>
+                            <li>Packet Tracer</li>
+                        </ul>
+                    </article>
+                    <article class="tarjeta">
+                        <svg class="icono icono--grande" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg>
+                        <h3>Soporte y hardware</h3>
+                        <ul>
+                            <li>Diagnóstico de averías</li>
+                            <li>Formateo, clonación y mantenimiento</li>
+                        </ul>
+                    </article>
+                    <article class="tarjeta">
+                        <svg class="icono icono--grande" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a4 4 0 0 1-.5-8 6 6 0 0 1 11.5 1.5A3.5 3.5 0 0 1 17.5 18z"/></svg>
+                        <h3>Iniciación</h3>
+                        <ul>
+                            <li>AWS</li>
+                            <li>Bases de datos</li>
+                            <li>Ofimática</li>
+                        </ul>
+                    </article>
+                    <article class="tarjeta">
+                        <svg class="icono icono--grande" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0M16 5a3 3 0 0 1 0 6M21 20a6 6 0 0 0-4-5.6"/></svg>
+                        <h3>Competencias</h3>
+                        <ul>
+                            <li>Resolución de problemas</li>
+                            <li>Atención al cliente</li>
+                            <li>Trabajo en equipo</li>
+                            <li>Ganas de aprender</li>
+                        </ul>
+                    </article>
+                    <article class="tarjeta">
+                        <svg class="icono icono--grande" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+                        <h3>Idiomas</h3>
+                        <ul>
+                            <li>Español · nativo</li>
+                            <li>Inglés · A2, en aprendizaje</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 4. PROYECTOS ===== -->
+        <section class="seccion seccion--niebla" id="proyectos">
+            <div class="contenedor">
+                <h2 class="titulo">Proyectos</h2>
+                <p class="subtitulo">Prácticas de clase documentadas paso a paso, con capturas reales. Cada una tiene su README en GitHub.</p>
+
+                <div class="rejilla rejilla--proyectos">
+                    <!--
+                        PLANTILLA DE TARJETA — copia este bloque para cada proyecto nuevo.
+                        <article class="proyecto">
+                            <img class="proyecto__captura" src="img/proyectos/nombre.png" alt="Descripción de la captura" loading="lazy">
+                            <div class="proyecto__cuerpo">
+                                <p class="proyecto__modulo">Módulo · Curso</p>
+                                <h3>Nombre del proyecto</h3>
+                                <p>Dos o tres líneas sobre qué hice y qué demuestra.</p>
+                                <ul class="etiquetas">
+                                    <li>Linux</li>
+                                    <li>Packet Tracer</li>
+                                </ul>
+                                <a class="enlace" href="https://github.com/USUARIO/REPO">Ver README →</a>
+                            </div>
+                        </article>
+                    -->
+
+                    <article class="proyecto">
+                        <img class="proyecto__captura" src="proyectos/redes-wireshark/img/wireshark_http.png" alt="Captura de una petición HTTP en Wireshark" loading="lazy">
+                        <div class="proyecto__cuerpo">
+                            <p class="proyecto__modulo">Planificación y Administración de Redes · ASIR</p>
+                            <h3>Direccionamiento IP y tráfico con Wireshark</h3>
+                            <p>Cálculo de subredes y cuellos de botella en una topología de Packet Tracer, y análisis capa a capa de capturas reales de ARP, DNS y HTTP.</p>
+                            <ul class="etiquetas">
+                                <li>Wireshark</li>
+                                <li>Subnetting</li>
+                                <li>ARP</li>
+                                <li>DNS</li>
+                                <li>HTTP</li>
+                                <li>Packet Tracer</li>
+                            </ul>
+                            <a class="enlace" href="https://github.com/Maite-Willinski/Maite-Willinski.github.io/tree/main/proyectos/redes-wireshark" target="_blank" rel="noopener">Ver README →</a>
+                        </div>
+                    </article>
+
+                    <article class="proyecto">
+                        <img class="proyecto__captura" src="proyectos/arranque-dual-grub/img/grubinstall.png" alt="Terminal recuperando GRUB con chroot y grub-install" loading="lazy">
+                        <div class="proyecto__cuerpo">
+                            <p class="proyecto__modulo">Implantación de Sistemas Operativos · ASIR</p>
+                            <h3>Arranque dual y recuperación de GRUB</h3>
+                            <p>Windows 11 y Ubuntu en una VM con UEFI y Secure Boot. Borré la partición EFI a propósito y recuperé los dos sistemas desde la línea de comandos.</p>
+                            <ul class="etiquetas">
+                                <li>VirtualBox</li>
+                                <li>UEFI</li>
+                                <li>GRUB</li>
+                                <li>Linux</li>
+                                <li>Windows 11</li>
+                            </ul>
+                            <a class="enlace" href="https://github.com/Maite-Willinski/Maite-Willinski.github.io/tree/main/proyectos/arranque-dual-grub" target="_blank" rel="noopener">Ver README →</a>
+                        </div>
+                    </article>
+
+                    <article class="proyecto">
+                        <img class="proyecto__captura" src="proyectos/servidores-web-aws/img/ssh.png" alt="Conexión SSH a una instancia de Ubuntu en AWS" loading="lazy">
+                        <div class="proyecto__cuerpo">
+                            <p class="proyecto__modulo">Implantación de Sistemas Operativos · ASIR</p>
+                            <h3>Servidores web en AWS EC2</h3>
+                            <p>Instancias de Ubuntu Server y Windows Server en la nube, con acceso por SSH y RDP, grupos de seguridad y servidores web nginx e IIS.</p>
+                            <ul class="etiquetas">
+                                <li>AWS EC2</li>
+                                <li>SSH</li>
+                                <li>nginx</li>
+                                <li>IIS</li>
+                                <li>Windows Server</li>
+                            </ul>
+                            <a class="enlace" href="https://github.com/Maite-Willinski/Maite-Willinski.github.io/tree/main/proyectos/servidores-web-aws" target="_blank" rel="noopener">Ver README →</a>
+                        </div>
+                    </article>
+
+                    <article class="proyecto">
+                        <img class="proyecto__captura" src="proyectos/diagnostico-hardware/img/crystaldisk.png" alt="Estado de salud del SSD en CrystalDiskInfo" loading="lazy">
+                        <div class="proyecto__cuerpo">
+                            <p class="proyecto__modulo">Fundamentos de Hardware · ASIR</p>
+                            <h3>Diagnóstico de hardware</h3>
+                            <p>Revisión de un equipo real: UEFI, salud del SSD con S.M.A.R.T., test de memoria RAM, rendimiento de la CPU y diagnóstico de averías de arranque.</p>
+                            <ul class="etiquetas">
+                                <li>CrystalDiskInfo</li>
+                                <li>MemTest64</li>
+                                <li>UEFI</li>
+                                <li>Soporte</li>
+                            </ul>
+                            <a class="enlace" href="https://github.com/Maite-Willinski/Maite-Willinski.github.io/tree/main/proyectos/diagnostico-hardware" target="_blank" rel="noopener">Ver README →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 5. EXPERIENCIA Y FORMACIÓN ===== -->
+        <section class="seccion" id="trayectoria">
+            <div class="contenedor">
+                <h2 class="titulo">Experiencia y formación</h2>
+                <ol class="linea-tiempo">
+                    <li class="hito">
+                        <p class="hito__fecha">2026 – actualidad</p>
+                        <h3>CFGS Administración de Sistemas Informáticos en Red (ASIR)</h3>
+                        <p class="hito__lugar">IES Aguadulce · 1.º curso · FP Dual</p>
+                        <ul>
+                            <li>Virtualización y arranque dual de sistemas operativos.</li>
+                            <li>Análisis de tráfico de red con Wireshark (ARP, DNS y HTTPS).</li>
+                            <li>Active Directory y redes con Packet Tracer: direccionamiento IP, DHCP y VLAN.</li>
+                            <li>Iniciación a AWS y a bases de datos.</li>
+                        </ul>
+                    </li>
+                    <li class="hito hito--trabajo">
+                        <p class="hito__fecha">Octubre – diciembre de 2025</p>
+                        <h3>Prácticas de técnico de soporte informático</h3>
+                        <p class="hito__lugar">PC Plasma · 400 horas (FCT de SMR)</p>
+                        <ul>
+                            <li>Formateo, clonación de discos e instalación limpia de sistemas, con copia y migración de datos.</li>
+                            <li>Limpieza y mantenimiento preventivo de equipos en taller.</li>
+                            <li>Diagnóstico y reparación de averías sencillas de hardware y software.</li>
+                            <li>Instalación de software y controladores, control de inventario y atención a clientes.</li>
+                        </ul>
+                    </li>
+                    <li class="hito">
+                        <p class="hito__fecha">2022 – 2025</p>
+                        <h3>CFGM Sistemas Microinformáticos y Redes (SMR)</h3>
+                        <p class="hito__lugar">IES Virgen del Carmen</p>
+                        <ul>
+                            <li>Montaje y mantenimiento de equipos, redes locales y servicios de red (DNS, DHCP y FTP).</li>
+                            <li>Sistemas operativos monopuesto y en red; seguridad: copias, antivirus y firewalls.</li>
+                            <li>Packet Tracer: red inalámbrica con WPA2, VLAN y RADIUS, y VPN entre redes locales.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ===== 6. CONTACTO ===== -->
+        <section class="seccion seccion--niebla" id="contacto">
+            <div class="contenedor contacto">
+                <h2 class="titulo titulo--centro">Contacto</h2>
+                <p class="subtitulo">¿Tienes una plaza de prácticas duales en sistemas, redes o soporte? Me encantará hablar contigo.</p>
+                <ul class="contacto__lista">
+                    <li>
+                        <a class="contacto__enlace" href="mailto:maitewillinskigonzalez@gmail.com">
+                            <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                            maitewillinskigonzalez@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contacto__enlace" href="https://www.linkedin.com/in/maite-willinski-gonz%C3%A1lez-b05706268/" target="_blank" rel="noopener">
+                            <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contacto__enlace" href="https://github.com/Maite-Willinski" target="_blank" rel="noopener">
+                            <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5M15 21v-3.5a3 3 0 0 0-.8-2.3c2.7-.3 5.5-1.3 5.5-6a4.7 4.7 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1-.3-3.4 1.3a11.6 11.6 0 0 0-6 0C6.5 2.5 5.5 2.8 5.5 2.8a4.3 4.3 0 0 0-.1 3.2A4.7 4.7 0 0 0 4 9.2c0 4.7 2.8 5.7 5.5 6a3 3 0 0 0-.8 2.3V21"/></svg>
+                            GitHub
+                        </a>
+                    </li>
+                </ul>
+                <p class="contacto__ubicacion">
+                    <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+                    Écija (Sevilla)
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>© 2026 Maite Willinski · Hecho a mano con HTML y CSS</p>
+    </footer>
+</body>
+</html>
