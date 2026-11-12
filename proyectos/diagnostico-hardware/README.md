@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:E7A3C3,50:B9A3E3,100:7A4FC0&text=Diagn%C3%B3stico%20de%20hardware&fontColor=3B2470&fontSize=42&fontAlignY=38&desc=UEFI%20%C2%B7%20S.M.A.R.T.%20%C2%B7%20Test%20de%20RAM%20%C2%B7%20Aver%C3%ADas%20de%20arranque&descSize=16&descAlignY=58&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:F6D3E3,50:E4D8F7,100:C9B6EC&text=Diagn%C3%B3stico%20de%20hardware&fontColor=3B2470&fontSize=42&fontAlignY=38&desc=UEFI%20%C2%B7%20S.M.A.R.T.%20%C2%B7%20Test%20de%20RAM%20%C2%B7%20Aver%C3%ADas%20de%20arranque&descSize=16&descAlignY=58&animation=fadeIn" width="100%"/>
 
 <img src="https://img.shields.io/badge/M%C3%B3dulo-Fundamentos%20de%20Hardware-B9A3E3?style=for-the-badge&labelColor=F1ECFA" alt="Módulo: Fundamentos de Hardware"/>
 <img src="https://img.shields.io/badge/ASIR-1.%C2%BA%20curso-E7A3C3?style=for-the-badge&labelColor=F1ECFA" alt="ASIR: 1.º curso"/>
@@ -109,6 +109,6 @@ como la virtualización.
 
 <sub>Hecho con ♡ por Maite Willinski · Técnica SMR y estudiante de ASIR</sub>
 
-<img src="https://capsule-render.vercel.app/api?section=footer&type=waving&height=100&color=0:E7A3C3,50:B9A3E3,100:7A4FC0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?section=footer&type=waving&height=100&color=0:F6D3E3,50:E4D8F7,100:C9B6EC" width="100%"/>
 
 </div>

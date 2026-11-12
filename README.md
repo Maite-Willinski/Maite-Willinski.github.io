@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:E7A3C3,50:B9A3E3,100:7A4FC0&text=Maite%20Willinski&fontColor=3B2470&fontSize=42&fontAlignY=38&desc=%E2%8B%86%20portafolio%20de%20sistemas%2C%20redes%20y%20soporte%20%E2%8B%86&descSize=16&descAlignY=58&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:F6D3E3,50:E4D8F7,100:C9B6EC&text=Maite%20Willinski&fontColor=3B2470&fontSize=42&fontAlignY=38&desc=%E2%8B%86%20portafolio%20de%20sistemas%2C%20redes%20y%20soporte%20%E2%8B%86&descSize=16&descAlignY=58&animation=fadeIn" width="100%"/>
 
 <img src="img/foto_redonda.png" alt="Foto de Maite Willinski" width="170"/>
 
@@ -115,6 +115,6 @@ propio README paso a paso, con capturas reales, los problemas que me encontré y
 <br>
 <sub>Hecho con ♡ por Maite Willinski · Écija (Sevilla)</sub>
 
-<img src="https://capsule-render.vercel.app/api?section=footer&type=waving&height=100&color=0:E7A3C3,50:B9A3E3,100:7A4FC0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?section=footer&type=waving&height=100&color=0:F6D3E3,50:E4D8F7,100:C9B6EC" width="100%"/>
 
 </div>
